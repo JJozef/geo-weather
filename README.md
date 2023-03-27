@@ -64,6 +64,3 @@ Si quieres contribuir a este proyecto, ¡eres bienvenido! Puedes hacerlo de la s
 - Crea un pull request desde tu repositorio al repositorio original.
 - Espera a que tus cambios sean revisados y aceptados.
 
-#### Licencia
-
-Este proyecto está bajo la licencia MIT. Puedes leer más detalles en el archivo LICENSE.
