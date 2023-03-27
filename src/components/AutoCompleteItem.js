@@ -22,8 +22,7 @@ export default function AutoCompleteItem({ city }) {
               <button
                 className='w-full flex justify-between items-center px-2 border-2 rounded-md border-textPrimary hover:bg-textPrimary hover:text-yellow-500 hover:ring-2 hover:ring-yellow-500 hover:ring-opacity-20 font-semibold'
                 onClick={() =>
-                  setSelectedCityToPinned(`${name}, ${region}, ${country}`)
-                }
+                  setSelectedCityToPinned(`${name}, ${region}, ${country}`)}
               >
                 {name}
                 {region && `, ${region}`}
