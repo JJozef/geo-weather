@@ -22,7 +22,7 @@ export default function SearchCity({ onClose }) {
             getItems: ({ query }) => {
               // eslint-disable-next-line no-extra-boolean-cast
               if (!!query) {
-                return fetch(`/search/${query}`).then(
+                return fetch(`/api/search/${query}`).then(
                   (res) => res.json()
                 )
               }
