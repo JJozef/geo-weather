@@ -1,38 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### App Web del Clima [Developing]
 
-## Getting Started
+- Esta es una aplicación web del clima que te permite conocer el pronóstico del tiempo para diferentes ciudades. Puedes seleccionar una ciudad o agregarla a tus favoritas para ver la información del clima actualizada en tiempo real.
 
-First, run the development server:
+#### Características
+
+- Buscar el clima de cualquier ciudad
+- Ver la información del clima actualizada en tiempo real
+- Ver información detallada del clima para los próximos días
+
+#### Tecnologías utilizadas
+
+- Next.js
+- TailwindCSS
+- [pnpm - "Use Windows option"](https://pnpm.io/es/installation)
+- [WeatherAPI.com - API](https://rapidapi.com/weatherapi/api/weatherapi-com/)
+- [GoogleCloudMaps - API](https://mapsplatform.google.com/intl/es-419/)
+
+#### Cómo correr la aplicación
+
+1. Clona este repositorio:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Copy code:
+git clone https://github.com/TU_USUARIO/app-del-clima.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Instala las dependencias:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+Copy code:
+cd app-del-clima
+pnpm i
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Configura las variables de entorno:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Busca el .env.example, del proyecto y rellena estas siguientes variables:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+NEXT_PUBLIC_WEATHER_API_KEY=your_key
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_key
+```
 
-## Learn More
+#### Corre la aplicación:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+Copy code:
+pnpm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Abre la aplicación en tu navegador:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Ve a http://localhost:3000 para ver la aplicación en acción.
 
-## Deploy on Vercel
+#### Cómo contribuir
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Si quieres contribuir a este proyecto, ¡eres bienvenido! Puedes hacerlo de la siguiente manera:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Crea un fork de este repositorio.
+- Crea una nueva rama para tus cambios: git checkout -b mi-rama.
+- Haz tus cambios y realiza commits: git commit -am 'mi mensaje de commit'.
+- Envía tus cambios a tu repositorio: git push origin mi-rama.
+- Crea un pull request desde tu repositorio al repositorio original.
+- Espera a que tus cambios sean revisados y aceptados.
+
+#### Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes leer más detalles en el archivo LICENSE.
