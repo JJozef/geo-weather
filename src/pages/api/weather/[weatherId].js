@@ -27,13 +27,11 @@ export default async function handler(req, res) {
   const todayInfoData = await todayInfo.json()
   const forescastData = await forescast.json()
 
-  res
-    .status(200)
-    .json({
-      today: todayData,
-      todayMore: todayInfoData,
-      forecast: forescastData
-    })
+  res.status(200).json({
+    today: todayData,
+    todayMore: todayInfoData,
+    forecast: forescastData
+  })
 }
 
 function getTodayDate() {
