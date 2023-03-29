@@ -18,11 +18,14 @@
 
 #### Cómo correr la aplicación
 
-1. Clona este repositorio:
+- Clona este repositorio:
 
 ```bash
 git clone https://github.com/JJozef/geo-weather.git
+```
+- Ve a la carpeta:
 
+```bash
 cd carpeta
 ```
 
