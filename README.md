@@ -1,6 +1,6 @@
 ### App Web del Clima [Developing]
 
-- Esta es una aplicación web del clima que te permite conocer el pronóstico del tiempo para diferentes ciudades. Puedes seleccionar una ciudad o agregarla a tus favoritas para ver la información del clima actualizada en tiempo real.
+- Esta es una aplicación web del clima que te permite conocer el pronóstico del tiempo para diferentes ciudades. Puedes ver la información del clima actualizada en tiempo real.
 
 #### Características
 
