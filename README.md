@@ -21,15 +21,13 @@
 1. Clona este repositorio:
 
 ```bash
-Copy code:
-git clone https://github.com/TU_USUARIO/app-del-clima.git
+git clone [https://github.com/TU_USUARIO/app-del-clima.git](https://github.com/JJozef/geo-weather.git)
 ```
 
 #### Instala las dependencias:
 
 ```bash
-Copy code:
-cd app-del-clima
+cd carpeta
 pnpm i
 ```
 
@@ -45,7 +43,6 @@ NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_key
 #### Corre la aplicación:
 
 ```bash
-Copy code:
 pnpm run dev
 ```
 
