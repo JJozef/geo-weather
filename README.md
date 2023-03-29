@@ -21,13 +21,14 @@
 1. Clona este repositorio:
 
 ```bash
-git clone [https://github.com/TU_USUARIO/app-del-clima.git](https://github.com/JJozef/geo-weather.git)
+git clone https://github.com/JJozef/geo-weather.git
+
+cd carpeta
 ```
 
 #### Instala las dependencias:
 
 ```bash
-cd carpeta
 pnpm i
 ```
 
